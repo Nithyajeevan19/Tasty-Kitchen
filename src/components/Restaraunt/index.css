@@ -1,0 +1,60 @@
+.restaraunt-img{
+    height:100px;
+    width:150px;
+    border-radius:10px;
+    object-fit: cover; 
+}
+.restaraunt-name{
+    font-size:18px;
+   color: #334155;
+   font-weight:700px;
+   margin-bottom:8px;
+}
+.res-type{
+    font-size:14px;
+    color:#334155;
+    font-weight:400;
+    margin-bottom:10px;
+
+}
+.star-icon{
+    width: 20px;
+  height: 20px;
+  stroke: #f7b91b;
+}
+.total-ratings{
+    color:#64748B;
+    font-weight:400;
+    font-size:12px;
+    margin-top:3px;
+}
+.rating{
+    font-weight:700;
+    font-size:14px;
+    margin-top:3px;
+}
+.card-container{
+    display: flex;
+    width:500px;
+}
+.names-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding:10px;
+}
+.ratings-container{
+    display: flex;
+    align-items: center;
+    
+}
+.total-reviews{
+    margin-right:5px;
+    margin-left:5px;
+    font-size:12px;
+}
+.restaraunt-card-button{
+    background: transparent;
+    border:none;
+    text-align: left;
+}

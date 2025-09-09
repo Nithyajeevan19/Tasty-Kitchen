@@ -1,0 +1,114 @@
+.food-item-container{
+    display: flex;
+}
+.food-details{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    margin-left:20px;
+    /* height:700px; */
+}
+.food-item-img{
+    height:150px;
+    width:220px;
+    border-radius:8px;
+}
+
+.food-name{
+    /* font-family: "DMSans"; */
+    font-weight:700;
+    font-size:18px;
+    color:#334155;
+    margin-left:10px;
+    margin-bottom: 5px;
+}
+.food-item-cost{
+    margin-top:4px;
+    color:#334155;
+    font-weight: 500;
+
+}
+.food-item-rating{
+    color:#0A1F44;
+    font-weight: 700;
+    margin-top:4px;
+}
+.cost-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3px;
+}
+.ratings-container{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    margin-bottom: 11px;
+}
+.star-icon-food{
+  width: 20px;
+  height: 20px;
+  stroke: #FFCC00;
+
+}
+.rupee-icon{
+   height:30px;
+}
+.food-rating{
+    font-weight: 700;
+    font-family: "DM Sans";
+    font-size:50px;
+    
+}
+.add-button{
+    width:58px;
+    height:32px;
+    background: transparent;
+    border:2px solid #ff4500;
+    border-radius: 10px;
+    color:#ff4500;
+    margin-left: 5px;
+
+}
+.fooditem-counter-container{
+   display: flex;
+  align-items: center;
+  margin-left:10px;
+}
+.counter-button{
+    background: transparent;
+    width:20px;
+    /* margin-left:10px;
+    margin-right: 10px; */
+    border:1px solid #334155;
+
+}
+.count-value{
+    margin:10px;
+    font-size: 16px;
+    font-weight: 500;
+    /* font-family: "DMSans"; */
+}
+@media all and (max-width: 768px) {
+.food-item-container{
+    display: flex;
+    align-items: center;
+    /* width:350px; */
+}
+.food-details{
+    margin-left: 0px;
+}
+.food-item-img{
+  height:150px;
+  margin-left: 0px;
+  width:200px;
+
+}
+ .img-container{
+height: 150px;
+  width: 200px;
+  overflow: hidden;
+  border-radius: 8px;
+  object-fit: cover;
+   margin-right: 10px; 
+} 
+}
